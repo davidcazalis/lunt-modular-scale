@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Modular Scale
+   ========================================================================== */
+
+:root {
+
+  /* Ratios, thanks to https://github.com/modularscale */
+
+  --ratio-phi              : 1.618034;
+  --ratio-golden           : var(--ratio-phi);
+  --ratio-double-octave    : 4;
+  --ratio-major-twelfth    : 3;
+  --ratio-major-eleventh   : 2.666666667;
+  --ratio-major-tenth      : 2.5;
+  --ratio-octave           : 2;
+  --ratio-major-seventh    : 1.875;
+  --ratio-minor-seventh    : 1.777777778;
+  --ratio-major-sixth      : 1.666666667;
+  --ratio-minor-sixth      : 1.6;
+  --ratio-fifth            : 1.5;
+  --ratio-augmented-fourth : 1.41421;
+  --ratio-fourth           : 1.333333333;
+  --ratio-major-third      : 1.25;
+  --ratio-minor-third      : 1.2;
+  --ratio-major-second     : 1.125;
+  --ratio-minor-second     : 1.066666667;
+
+  --lunt-ms-base:       var(--lunt-base-font-size);
+  --lunt-ms-ratio:      var(--ratio-fifth);
+
+  --lunt-ms-xxs:   calc(var(--lunt-ms-xs) / var(--lunt-ms-ratio));
+  --lunt-ms-xs:    calc(var(--lunt-ms-s) / var(--lunt-ms-ratio));
+  --lunt-ms-s:     calc(var(--lunt-ms-m) / var(--lunt-ms-ratio));
+  --lunt-ms-m:     calc(var(--lunt-ms-base) * var(--lunt-ms-ratio));
+  --lunt-ms-l:     calc(var(--lunt-ms-m) * var(--lunt-ms-ratio));
+  --lunt-ms-xl:    calc(var(--lunt-ms-l) * var(--lunt-ms-ratio));
+  --lunt-ms-xxl:   calc(var(--lunt-ms-xl) * var(--lunt-ms-ratio));
+}
