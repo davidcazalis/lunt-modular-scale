@@ -1,0 +1,26 @@
+{
+  "name": "lunt-modular-scale",
+  "version": "0.0.1",
+  "description": "Modular scale helpers for the Lunt framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcazalis/lunt-modular-scale.git"
+  },
+  "keywords": [
+    "lunt",
+    "css",
+    "framework",
+    "modular",
+    "scale"
+  ],
+  "author": "David Cazalis <davidcazalis@gmail.com> (http://www.davidcazalis.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcazalis/lunt-modular-scale/issues"
+  },
+  "homepage": "https://github.com/davidcazalis/lunt-modular-scale#readme"
+}
