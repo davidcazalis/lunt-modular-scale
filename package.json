@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/davidcazalis/lunt-modular-scale/issues"
   },
-  "homepage": "https://github.com/davidcazalis/lunt-modular-scale#readme"
+  "homepage": "https://github.com/davidcazalis/lunt-modular-scale#readme",
+  "dependencies": {
+    "lunt-settings": "0.0.1"
+  }
 }
